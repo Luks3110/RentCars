@@ -1,0 +1,14 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5433,
+    "username": "lucasfernandes",
+    "password": "lucas1429",
+    "database": "yourcar",
+    "entities": ["dist/**/entities/*{.ts,.js}"],
+    "synchronize": true,
+    "migrations": ["src/migrations/*{.ts,.js}"],
+    "cli": {
+        "migrationsDir": "src/migrations"
+    }
+}
